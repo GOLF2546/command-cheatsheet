@@ -107,7 +107,7 @@ export domain="corp.local"      # AD domain name
 | 113 | Ident | [113-ident.md](1.Scanning/IT-Ports/113-ident.md) |
 | 123 | NTP | [123-ntp.md](1.Scanning/IT-Ports/123-ntp.md) |
 | 135, 593 | MSRPC | [135-593-msrpc.md](1.Scanning/IT-Ports/135-593-msrpc.md) |
-| 139, 445 | SMB | [139-445-smb.md](1.Scanning/IT-Ports/139-445-smb.md) |
+| 139, 445 | SMB | [139-445-smb.md](139-445-smb-netbios.md) |
 | 143, 993 | IMAP | [143-993-imap.md](1.Scanning/IT-Ports/143-993-imap.md) |
 | 161, 162 | SNMP | [161-162-snmp.md](1.Scanning/IT-Ports/161-162-snmp.md) |
 | 194, 6667 | IRC | [194-6667-irc.md](1.Scanning/IT-Ports/194-6667-irc.md) |

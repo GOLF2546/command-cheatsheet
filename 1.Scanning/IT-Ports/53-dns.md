@@ -95,6 +95,8 @@ dig +short $domain
 ### nslookup
 
 ```shell
+# Query Domain Controller IP's
+nslookup -type=SRV dc01.hexdump.lab
 # Interactive mode
 nslookup
 > server $rhost

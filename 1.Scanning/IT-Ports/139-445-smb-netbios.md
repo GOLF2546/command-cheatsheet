@@ -29,6 +29,11 @@
 nxc smb $rhost -u '' -p '' && smbclient -N -L $rhost && nmap -p 445 --script "smb-vuln*" $rhost
 ```
 
+For NetBiOS
+
+```Bash
+nbtscan $rhost
+```
 ### Check Connect
 
 #### NetExec

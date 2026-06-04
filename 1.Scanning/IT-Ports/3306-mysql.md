@@ -75,6 +75,9 @@ SELECT table_name, column_name FROM information_schema.COLUMNS
 WHERE column_name LIKE '%password%' OR column_name LIKE '%pass%';
 ```
 
+```
+--skip-ssl-verify-server-cert
+```
 ### User Enumeration
 
 ```shell

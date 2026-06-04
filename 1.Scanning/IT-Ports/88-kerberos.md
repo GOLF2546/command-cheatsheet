@@ -15,6 +15,8 @@
 
 ## Enumeration
 
+```
+
 ### Quick Check (One-liner)
 
 ```shell
@@ -80,7 +82,7 @@ kerbrute bruteuser -d $domain --dc $rhost passwords.txt username
 
 ```shell
 # Get TGT
-impacket-getTGT $domain/$user:$password -dc-ip $rhost
+impacket-getTGT $domain/$user:$pass -dc-ip $rhost
 
 # Get ST (Service Ticket)
 impacket-getST $domain/$user:$password -spn cifs/$rhost -dc-ip $rhost
