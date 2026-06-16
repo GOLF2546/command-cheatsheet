@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. Methodology/4. Windows Privileges Escalation Methodology.md",
+                "file": "4.Privilege-Escalation/4.1.Privilege-Escalation-Windows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Windows Privileges Escalation Methodology"
+              "title": "4.1.Privilege-Escalation-Windows"
             }
           }
         ]
@@ -185,16 +185,21 @@
   },
   "active": "e76fe62242dadcc2",
   "lastOpenFiles": [
-    "4.Privilege-Escalation/4.1.Privilege-Escalation-Windows.md",
-    "0. Methodology/4. Windows Privileges Escalation Methodology.md",
-    "0. Methodology/3. Linux Privileges Escalation Methodology.md",
     "4.Privilege-Escalation/4.2.Privilege-Escalation-Linux.md",
-    "4.Privilege-Escalation/4.4.LOLBAS-Windows.md",
-    "0. Methodology/0. Penetration Testing Methodology.md",
-    "0. Methodology/1. Reconnaissance & Target Discovery.md",
-    "0. Methodology/5. Active Directory Methodology.md",
-    "0. Methodology/2. Web Enumeration Methodology.md",
+    "7.Web-Exploit/7.7.XXE.md",
+    "7.Web-Exploit/7.8.File-Upload.md",
+    "7.Web-Exploit/7.1.SQL-Injection.md",
+    "7.Web-Exploit/7.6.SSTI.md",
+    "7.Web-Exploit/7.5.SSRF.md",
     "7.Web-Exploit/7.0.Web-Application-Analysis.md",
+    "0. Methodology/5. Active Directory Methodology.md",
+    "0. Methodology/0. Penetration Testing Methodology.md",
+    "0. Methodology/4. Windows Privileges Escalation Methodology.md",
+    "4.Privilege-Escalation/4.1.Privilege-Escalation-Windows.md",
+    "0. Methodology/3. Linux Privileges Escalation Methodology.md",
+    "4.Privilege-Escalation/4.4.LOLBAS-Windows.md",
+    "0. Methodology/1. Reconnaissance & Target Discovery.md",
+    "0. Methodology/2. Web Enumeration Methodology.md",
     "2.CVE-Exploit/2.1.CVE-Exploit.md",
     "9.OSCP-Exam/9.1.OSCP-Exam-Guide.md",
     "7.Web-Exploit/7.20.Mass-Assignment.md",
@@ -211,11 +216,6 @@
     "Pasted image 20260605095404.png",
     "Windows_PrivEsc_Cheatsheet.md",
     "4.Privilege-Escalation/4.0 Windows_PrivEsc_Methodology.md",
-    "3.AD-Exploit/3.3.Kerberos-Attacks.md",
-    "3.AD-Exploit/3.7.Kerberos-Delegation.md",
-    "5.Lateral-Movement/5.1.Lateral-Movement.md",
-    "1.Scanning/IT-Ports/88-kerberos.md",
-    "3.AD-Exploit/3.9.NetExec.md",
     "Images/Pasted image 20260605061411.png",
     "Pasted image 20260604222849.png",
     "Images/PenetrationTestingFlow.png",
